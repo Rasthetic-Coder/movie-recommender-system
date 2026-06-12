@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import os
 
-API_URL = "http://127.0.0.1:8501/recommend"
+API_URL = "https://movie-recommender-system-bmr9.onrender.com"
 
 load_dotenv()
 

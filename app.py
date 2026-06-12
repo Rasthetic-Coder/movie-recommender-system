@@ -29,7 +29,7 @@ movie_name = st.text_input("Enter Movie Name")
 if st.button("Recommend"):
 
     response = requests.post(
-        "http://127.0.0.1:8000/recommend",
+        "https://movie-recommender-system-bmr9.onrender.com",
         json={
             "movie_name": movie_name
         }

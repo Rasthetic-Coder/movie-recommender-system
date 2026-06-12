@@ -2,5 +2,5 @@ myenv/
 __pycache__/
 *.pyc
 .env
-similarity.pkl
+
 

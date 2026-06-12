@@ -3,11 +3,10 @@ import streamlit as st
 import requests
 import os
 
-# Load env variables
+
 load_dotenv()
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
-# ✅ Your deployed FastAPI URL
 API_URL = "https://movie-recommender-system-bmr9.onrender.com/recommend"
 
 
@@ -30,7 +29,7 @@ def fetch_poster(movie_id):
     except:
         return "https://via.placeholder.com/300x450?text=No+Image"
 
-st.title("🎬 Movie Recommender System")
+st.title(" Movie Recommender System")
 
 movie_name = st.text_input("Enter Movie Name")
 
